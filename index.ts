@@ -1,4 +1,4 @@
-import fs, { writeFileSync } from 'node:fs';
+import fs from 'node:fs';
 
 const data = fs.readFileSync('./countries.txt', 'utf-8').toString();
 const dataArray = data.split('\n');
